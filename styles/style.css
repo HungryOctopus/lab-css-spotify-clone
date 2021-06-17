@@ -1,3 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  height: 600px;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: inline-flex;
+  margin: 0 30px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 200px;
+}
+
+h3 {
+  color: #00b172;
+}
+
+.top > p {
+  text-align: center;
+}
+
+.bottom {
+  background-color: #00b172;
+}
+
 /*
 Colors:
 
